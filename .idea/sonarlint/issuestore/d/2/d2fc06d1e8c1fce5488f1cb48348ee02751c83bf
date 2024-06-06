@@ -1,0 +1,10 @@
+
+	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ïë‹´ş1J$b16d3f2b-bb47-4f89-84d4-a18787bb4a2a
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷åêÒ8÷ë‹´ş1J$990dd639-9210-4d7e-b0ec-6928747b5739
+ˆ
+java:S2259"@A "NullPointerException" could be thrown; "ni" is nullable here.(·ª•åøÿÿÿÿ8®ì‹´ş1J$4d599f57-20e1-4891-bbb0-f78d1d234de4
+m	java:S106"+Replace this use of System.err by a logger.(ƒêÁˆ8½ì‹´ş1J$c726f580-fa1f-4eef-b028-e15ddfe50e45
+m	java:S106"+Replace this use of System.out by a logger.(‹ã™°8Àì‹´ş1J$24675d69-1696-4abc-8eae-908d900180bc
+r	java:S106"+Replace this use of System.err by a logger.(•ÖÅ†úÿÿÿÿ8Äì‹´ş1J$7f039855-09aa-46b6-8ad9-37cb84e53d8b
+r	java:S106"+Replace this use of System.out by a logger.(şá¹Üıÿÿÿÿ8Çì‹´ş1J$2309c679-a2fa-48f1-a427-7a66c31b584e
+m	java:S106 "+Replace this use of System.err by a logger.(—¼ÑÕ8Èì‹´ş1J$28888ada-12c2-42c4-8e63-a46868bd0194

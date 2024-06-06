@@ -1,0 +1,6 @@
+
+_
+java:S1643"Use a StringBuilder instead.(Ò¤”Û8‚ö÷Èþ1J$b216a2ea-e489-4ce3-bba0-4cdacf6b85c4
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷åêÒ8ƒö÷Èþ1J$29da3224-4fd9-4f8f-b69c-0eafa7231589
+r	java:S106"+Replace this use of System.out by a logger.(˜Ï—àûÿÿÿÿ8˜ö÷Èþ1J$a795d8bc-8cc5-487d-a8b5-b5bc006d4e36
+r	java:S106"+Replace this use of System.out by a logger.(îÛÿëþÿÿÿÿ8™ö÷Èþ1J$4eba7c59-ab0f-438d-b9a6-be3554da8346

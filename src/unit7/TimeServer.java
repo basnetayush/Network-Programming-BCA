@@ -2,10 +2,17 @@ package unit7;
 
 import java.io.*;
 import java.net.*;
+import java.sql.Time;
 import java.util.Date;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.logging.*;
 
 public class TimeServer {
     public final static int PORT = 9001;
+
+    private final static Logger LOGGER =
+            Logger.getLogger("TimeServer");
 
     public static void main(String[] args) {
         long differenceBetweenEpochs = 2208988800L;
@@ -13,7 +20,7 @@ public class TimeServer {
             System.out.println("Server Started");
             while (true) {
                 try (Socket connection = server.accept()) {
-                    System.out.println("Client Connected");
+                    LOGGER.info("Connection established");
                     OutputStream out = connection.getOutputStream();
                     Date now = new Date();
                     long msSince1970 = now.getTime();
@@ -28,6 +35,7 @@ public class TimeServer {
                     out.write(time);
                     out.flush();
                 } catch (IOException ex) {
+                    LOGGER.severe("Error Occured");
                     System.err.println(ex.getMessage());
                 }
             }

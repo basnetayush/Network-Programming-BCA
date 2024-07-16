@@ -6,7 +6,7 @@ import java.util.Date;
 
 public class TimeClient {
     public final static String SERVER = "localhost";
-    public final static int PORT = 9001;
+    public final static int PORT = 9002;
 
     public static void main(String[] args) {
         try (Socket socket = new Socket(SERVER, PORT)) {
